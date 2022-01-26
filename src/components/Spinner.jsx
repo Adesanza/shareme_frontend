@@ -1,9 +1,9 @@
-import Loader, { CradleLoader } from 'react-loader-spinner';
+import Loader, { Audio } from 'react-loader-spinner';
 
 const Spinner = ({ message }) => {
   return (
     <div className="flex flex-col justify-center items-center w-full h-full">
-      <CradleLoader
+      <Audio
         // type="Circles"
         color="#00BFFF"
         height={50}
